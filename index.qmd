@@ -217,8 +217,8 @@ format:
         <div class="hero_content">
             <h1>Hi, I'm <span class="gradient_text">Josh</span>.</h1>
             <p>I'm a Marine Resource Management Specialist with NOAA Fisheries  
-            <a href="https://www.fisheries.noaa.gov/about/northeast-fisheries-science-center">@NEFSC</a>. I work at the intersection of protected species and offshore wind.</p>
-            <p>Learn more about how offshore wind can affect endangered or threatened species!</p>
+            <a href="https://www.fisheries.noaa.gov/about/northeast-fisheries-science-center">@NEFSC</a>. I work at the intersection of protected species and marine development.</p>
+            <p>Learn more about how marine development can affect endangered or threatened species!</p>
             <a class="btn btn-primary" style="color: black;"  href="https://www.fisheries.noaa.gov/topic/offshore-wind-energy/assessing-impacts-to-marine-life" role="button">Click here</a>
         </div>
         <div class="hero_image">
