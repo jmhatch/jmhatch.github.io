@@ -8,7 +8,7 @@
   --color-bg-2: #d8f2ea;
   --color-text: #fff;
   --color-subtext: #FF8A71;
-  --bs-body-bg: black;
+  --bs-body-bg: linear-gradient(black, white);
 }
 
 * {
@@ -272,8 +272,17 @@ a {
   }
 }
 
-#bottom_wave{
+#bottom_wave {
   z-index: 7;
-  position:relative;
+  position: relative;
   width: 100%;
+}
+
+.gradient_bg #sakura {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  max-width: 350px;
+  min-width: 250px;
 }
