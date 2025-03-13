@@ -99,7 +99,7 @@ a {
 
 @media screen and (max-width: 700px) {
   .section_padding {
-      padding: 1rem 2rem 0rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
   }
   
   .hero {
@@ -107,13 +107,17 @@ a {
   }
 
   .section_margin {
-      margin: 4rem;
+    margin: 4rem;
+  }
+  
+  #sakura_branch {
+    display: none;
   }
 }
 
 @media screen and (max-width: 550px) {
   .section_padding {
-      padding: 1rem 2rem 0rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
   }
   
   .hero {
@@ -121,7 +125,11 @@ a {
   }
 
   .section_margin {
-      margin: 4rem 2rem;
+    margin: 4rem 2rem;
+  }
+  
+  #sakura_branch {
+    display: none;
   }
 }
 
@@ -165,7 +173,6 @@ a {
   color: #E6AA04;
 }
 
-
 .hero_content_input {
   z-index: 7;
   width: 100%;
@@ -196,7 +203,6 @@ a {
   font-style: italic;
 }
 
-
 .hero_image {
   z-index: 7;
   flex: 1;
@@ -215,26 +221,29 @@ a {
   border-radius: 50%;
 }
 
-
 @media screen and (max-width: 1050px) {
   .hero {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .hero_content {
-      margin: 0 0 3rem;
+    margin: 0 0 3rem;
+  }
+  
+  #sakura_branch {
+    display: none;
   }
 }
 
 @media screen and (max-width: 650px) {
   .hero_content h1 {
-      font-size: 48px;
-      line-height: 60px;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   .hero_content p{
-      font-size: 16px;
-      line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
   }
   
   .hero_content_below_button span{
@@ -244,31 +253,39 @@ a {
   .hero_content_input input,
   .hero_content_input button,
   .hero_content_input iframe{
-      font-size: 16px;
-      line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  #sakura_branch {
+    display: none;
   }
 }
 
 @media screen and (max-width: 490px) {
   .hero_content h1 {
-      font-size: 36px;
-      line-height: 48px;
+    font-size: 36px;
+    line-height: 48px;
   }
 
   .hero_content p{
-      font-size: 14px;
-      line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .hero_content_input input,
   .hero_content_input button,
   .hero_content_input iframe{
-      font-size: 12px;
-      line-height: 16px;
+    font-size: 12px;
+    line-height: 16px;
   }
   
   .hero_content_below_button span{
     font-size: 10px;
+  }
+  
+  #sakura_branch {
+    display: none;
   }
 }
 
@@ -276,13 +293,14 @@ a {
   z-index: 7;
   position: relative;
   width: 100%;
+  margin-top: 50px;
 }
 
-.gradient_bg #sakura {
+.gradient_bg #sakura_branch {
   position: absolute;
   top: 0;
   right: 0;
-  width: 20%;
+  width: 70%;
   max-width: 350px;
   min-width: 250px;
 }
