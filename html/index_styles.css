@@ -8,7 +8,6 @@
   --color-bg-2: #d8f2ea;
   --color-text: #fff;
   --color-subtext: #FF8A71;
-  --bs-body-bg: linear-gradient(black, white);
 }
 
 * {
@@ -77,23 +76,23 @@ a {
 
 @-webkit-keyframes scale-up-center {
   0% {
-      -webkit-transform: scale(0.5);
-      transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes scale-up-center {
   0% {
-      -webkit-transform: scale(0.5);
-      transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 
