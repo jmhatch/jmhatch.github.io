@@ -14,6 +14,8 @@
   "Tonto National Forest": ["L300609", "L331921"],
   "Trustom Pond National Wildlife Refuge": ["L166161"],
   "White Mountain National Forest": ["L6693586", "L6029349"],
+  "Francis Marion National Forest": ["L124369"],
+  "Cape Romain National Wildlife Refuge": ["L124281"],
   "Allens Pond Wildlife Sanctuary": ["L2324116", "L784803", "L12695191"],
   "Brooklawn Park": ["L8474789"],
   "Buttonwood Park": ["L1269482"],
@@ -46,5 +48,6 @@
   "Mud Creek Wildlife Management Area": ["L165379", "L752088"],
   "Franconia Notch State Park": ["L291562", "L449960", "L449962", "L732532"],
   "Lawton Farm": ["L4525701"],
-  "Mill Pond Preserve": ["L6593619"]
+  "Mill Pond Preserve": ["L6593619"],
+  "Swan Point Cemetary": ["L124352"]
 } 
