@@ -21,11 +21,15 @@ body{
   overscroll-behavior: none;
 }
 
+/* if using bottom-img, uncomment this */
+/*#quarto-content {
+  background: linear-gradient(-180deg, #000000 0%, #021d44 50%, #205493 100%);
+}*/
 .gradient_bg {
   overflow: visible;
   width: 100%;
   margin-top: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 70, 127, 1) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #205493 100%);
   /*background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%);*/
 }
 
@@ -290,9 +294,19 @@ a {
 
 #bottom_wave {
   z-index: 7;
-  position: relative;
   width: 100%;
-  margin-top: 50px;
+  position: relative;
+  background-position-y: 0;
+  padding-top: 50px;
+}
+
+#bottom_img {
+  z-index: 7;
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+  background-position-y: 0;
+  padding-top: 50px;
 }
 
 .gradient_bg #sakura_branch {
