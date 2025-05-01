@@ -21,6 +21,13 @@
     "text": "Hi, I'm Josh.\n          I'm a Marine Resource Management Specialist with NOAA Fisheries  \n          @NEFSC. I work at the intersection of protected species and marine development.\n          Learn more about how marine development can affect endangered or threatened species!\n          Click here"
   },
   {
+    "objectID": "blog/2025/04/23/gis_data_hub/index.html",
+    "href": "blog/2025/04/23/gis_data_hub/index.html",
+    "title": "GIS Data Hub",
+    "section": "",
+    "text": "As a scientist, I’m always looking for ways to increase the impact of my research and foster collaboration. One effective strategy is through data promotion - making data more accessible and useful by applying the FAIR principles (Findable, Accessible, Interoperable, and Reusable). These principles enhance the value of research data by improving how they’re organized, documented, and shared.\nA powerful way to implement FAIR principles is by using a data hub - a centralized repository where others can easily discover, access, and utilize your data. Not only does this promote transparency and reproducibility, but it also opens the door to new collaborations and amplifies the reach of your work."
+  },
+  {
     "objectID": "blog/2024/12/16/audiomoth/index.html",
     "href": "blog/2024/12/16/audiomoth/index.html",
     "title": "Audio Birding",
@@ -40,6 +47,13 @@
     "title": "Blog",
     "section": "",
     "text": "Dec 16\n        \n        \n            Audio Birding\n            \n                \n                    audiomoth\n                \n            \n            Using an audiomoth to remotely record the morning chorus\n        \n        \n            \n\n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-1",
+    "href": "blog/index.html#section-1",
+    "title": "Blog",
+    "section": "2025",
+    "text": "2025\n\n\n    \n                  \n            Apr 23\n        \n        \n            GIS Data Hub\n            \n                \n                    gis\n                \n                \n                    data portal\n                \n                \n                    ArcGIS Online\n                \n            \n            Improving access to spatial data\n        \n        \n            \n\n    \n\n\nNo matching items"
   },
   {
     "objectID": "map/index.html",
