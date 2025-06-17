@@ -1,0 +1,58 @@
+common_name,species_code,n,freq
+Alder Flycatcher,aldfly,1,8.872327211427557e-5
+American Crow,amecro,100,0.008872327211427557
+American Goldfinch,amegfi,16,0.001419572353828409
+American Redstart,amered,1,8.872327211427557e-5
+American Robin,amerob,3825,0.3393665158371041
+Baltimore Oriole,balori,1,8.872327211427557e-5
+Belted Kingfisher,belkin1,1,8.872327211427557e-5
+Black-and-white Warbler,bawwar,3,2.6616981634282674e-4
+Black-capped Chickadee,bkcchi,327,0.029012509981368114
+Black-throated Green Warbler,btnwar,21,0.0018631887143997872
+Blackpoll Warbler,bkpwar,65,0.0057670126874279125
+Blue Jay,blujay,36,0.0031940377961139207
+Blue-headed Vireo,buhvir,1,8.872327211427557e-5
+Brown-headed Cowbird,bnhcow,12,0.001064679265371307
+Canada Goose,cangoo,10,8.872327211427557e-4
+Carolina Wren,carwre,1432,0.1270517256676426
+Cedar Waxwing,cedwax,134,0.011888918463312926
+Chimney Swift,chiswi,89,0.007896371218170526
+Chipping Sparrow,chispa,1406,0.12474492059267146
+Common Grackle,comgra,40,0.003548930884571023
+Common Raven,comrav,1,8.872327211427557e-5
+Downy Woodpecker,dowwoo,51,0.004524886877828055
+Eastern Bluebird,easblu,3,2.6616981634282674e-4
+Eastern Towhee,eastow,40,0.003548930884571023
+Eastern Wood-Pewee,eawpew,7,6.21062904799929e-4
+European Starling,eursta,17,0.0015082956259426848
+Fish Crow,fiscro,3,2.6616981634282674e-4
+Golden-crowned Kinglet,gockin,5,4.4361636057137785e-4
+Gray Catbird,grycat,109,0.009670836660456037
+Great Crested Flycatcher,grcfly,220,0.019519119865140627
+Hermit Thrush,herthr,17,0.0015082956259426848
+Herring Gull,hergul,15,0.0013308490817141336
+House Finch,houfin,9,7.985094490284802e-4
+House Sparrow,houspa,13,0.0011534025374855825
+House Wren,houwre,975,0.08650519031141868
+Least Flycatcher,leafly,20,0.0017744654422855114
+Mallard,mallar3,6,5.323396326856535e-4
+Mourning Dove,moudov,21,0.0018631887143997872
+Northern Cardinal,norcar,796,0.07062372460296336
+Northern Flicker,norfli,31,0.002750421435542543
+Ovenbird,ovenbi1,13,0.0011534025374855825
+Purple Finch,purfin,3,2.6616981634282674e-4
+Red-bellied Woodpecker,rebwoo,16,0.001419572353828409
+Red-breasted Nuthatch,rebnut,566,0.05021737201667997
+Red-eyed Vireo,reevir1,82,0.007275308313370597
+Red-tailed Hawk,rethaw,1,8.872327211427557e-5
+Rose-breasted Grosbeak,robgro,6,5.323396326856535e-4
+Ruby-crowned Kinglet,ruckin,1,8.872327211427557e-5
+Ruby-throated Hummingbird,rthhum,1,8.872327211427557e-5
+Scarlet Tanager,scatan,14,0.001242125809599858
+Song Sparrow,sonspa,1,8.872327211427557e-5
+Tufted Titmouse,tuftit,254,0.022535711117025996
+Veery,veery,1,8.872327211427557e-5
+White-breasted Nuthatch,whbnut,114,0.010114453021027415
+Wood Thrush,woothr,313,0.027770384171768255
+Yellow-billed Cuckoo,yebcuc,2,1.7744654422855114e-4
+Yellow-rumped Warbler,yerwar,3,2.6616981634282674e-4
