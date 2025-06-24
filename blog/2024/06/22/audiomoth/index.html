@@ -225,7 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption class="figure-caption margin-caption">AudioMoth diagram from <a href="https://www.sciencedirect.com/science/article/pii/S2468067219300306">Hill et al.&nbsp;(2019)</a>.</figcaption>
 </figure>
 </div>
-<p>I programmed my AudioMoth to record for 3 hours every morning (5:30 am - 8:30 am) starting on May 12 and ending on June 15. My goal was to understand what birds were using or moving through my backyard during spring migration. I finally got around to processing each recording using <a href="https://github.com/kahst/BirdNET-Analyzer">BirdNet-Analyzer</a>, which can detect bird calls or songs from the audio and assign those to species. Below is a graph showing the relative frequency of detected bird occurrences in my backyard over the course of a month (give or take). So cool!</p>
+<p>I programmed my AudioMoth to record for 3 hours every morning (5:30 am - 8:30 am) starting on May 12 and ending on June 15. My goal was to understand what birds were using or moving through my backyard during spring migration. I finally got around to processing each recording using <a href="https://github.com/kahst/BirdNET-Analyzer">BirdNet-Analyzer</a>, which can detect bird calls or songs from the audio and assign those to species. Below is a graph showing the relative frequency of detected bird calls in my backyard over the course of a month (give or take). So cool!</p>
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="31" data-source-offset="-12"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 30;"><span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"d3@7"</span>)</span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>format <span class="op">=</span> d3<span class="op">.</span><span class="fu">format</span>(<span class="st">".01%"</span>)</span>
@@ -281,7 +281,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="ojs-cell-2" data-nodetype="expression">
 
 </div>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;1: Relative frequency of detected bird occurrences from AudioMoth recordings.</figcaption>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;1: Relative frequency of detected bird calls from AudioMoth recordings.</figcaption>
 </figure>
 </div>
 </div>
