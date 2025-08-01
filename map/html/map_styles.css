@@ -33,6 +33,7 @@ input[type="radio"], input[type="checkbox"] {
 
 .btn.btn-quarto, div.cell-output-display .btn-quarto {
   margin: 0.5rem 0.15rem;
+  color: #fff;
 }
 
 .results-container label {
