@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-782a966d87c0fa8d420383450c36f6d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-de80b98e989a3138e0657fd0697493ab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -87,6 +87,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-fy_24'] = new List('listing-fy_24', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fy_26 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-center','listing-role','listing-url','listing-logo','listing-description','listing-division','listing-branch',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-center","listing-role","listing-url","listing-logo","listing-description","listing-division","listing-branch"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fy_26'] = new List('listing-fy_26', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -227,7 +255,8 @@ window.Quarto = {
     <h2 id="toc-title">Fiscal year</h2>
    
   <ul>
-  <li><a href="#fy-202324" id="toc-fy-202324" class="nav-link active" data-scroll-target="#fy-202324">FY 2023–24</a></li>
+  <li><a href="#fy-202426" id="toc-fy-202426" class="nav-link active" data-scroll-target="#fy-202426">FY 2024–26</a></li>
+  <li><a href="#fy-202324" id="toc-fy-202324" class="nav-link" data-scroll-target="#fy-202324">FY 2023–24</a></li>
   </ul>
 </nav>
     </div>
@@ -238,6 +267,67 @@ window.Quarto = {
 
 
 
+<section id="fy-202426" class="level2">
+<h2 class="anchored" data-anchor-id="fy-202426">FY 2024–26</h2>
+<div id="listing-fy_26" class="quarto-listing quarto-listing-container-custom">
+<div class="projects">
+    
+    <div class="project-entry">
+        <div class="logo">
+            
+            <a href="https://github.com/NEFSC/NEFSC-Spatial" target="_blank"><img src="logos/NEFSCspatial_logo.png" alt="NEFSCspatial" title="NEFSCspatial"></a>
+            
+        </div>
+        <div class="body">
+            <p class="project-title">
+                
+                <a href="https://github.com/NEFSC/NEFSC-Spatial" target="_blank">NEFSCspatial</a> 
+                
+            </p>
+            <p class="project-details">
+                <span>Northeast Fisheries Science Center</span>
+                               
+                
+                
+                | <span class="project-role">R package</span>
+                
+            </p>
+            <p class="project-description">A repository of spatial data (vectors) in simple features, sf, format.</p>
+        </div>
+    </div>
+    
+    <div class="project-entry">
+        <div class="logo">
+            
+            <a href="https://github.com/jmhatch-NOAA/boemWind" target="_blank"><img src="logos/boemWind_logo.png" alt="boemWind" title="boemWind"></a>
+            
+        </div>
+        <div class="body">
+            <p class="project-title">
+                
+                <a href="https://github.com/jmhatch-NOAA/boemWind" target="_blank">boemWind</a> 
+                
+            </p>
+            <p class="project-details">
+                <span>Northeast Fisheries Science Center</span>
+                
+                | <span>Population and Ecosystems Monitoring and Analysis Division</span>
+                               
+                
+                | <span>Marine Development and Ecology Branch</span>
+                
+                
+                | <span class="project-role">R package</span>
+                
+            </p>
+            <p class="project-description">A repository of BOEM Renewable Energy Program GIS data in simple features, sf, format stored in an *.rda file for use with R.</p>
+        </div>
+    </div>
+    
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 <section id="fy-202324" class="level2">
 <h2 class="anchored" data-anchor-id="fy-202324">FY 2023–24</h2>
 <div id="listing-fy_24" class="quarto-listing quarto-listing-container-custom">
@@ -267,7 +357,7 @@ window.Quarto = {
                 | <span class="project-role">R package</span>
                 
             </p>
-            <p class="project-description">A repository of BOEM Wind Energy Areas (WEAs) in simple features, sf, format stored in an *.rda file for use with R.</p>
+            <p class="project-description">A repository of BOEM Renewable Energy Program GIS data in simple features, sf, format stored in an *.rda file for use with R.</p>
         </div>
     </div>
     
