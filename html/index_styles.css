@@ -19,6 +19,7 @@
 
 body {
   overscroll-behavior: none;
+  overflow-x: hidden; /* added for leaf animation */
 }
 
 /* if using bottom-img, uncomment this 
