@@ -19,7 +19,7 @@
 
 body {
   overscroll-behavior: none;
-  overflow-x: hidden !important; /* added for leaf + snow animation */
+  overflow-x: hidden!important; /* added for leaf + snow animation */
 }
 
 /* if using bottom-img, uncomment this 
