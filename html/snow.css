@@ -1,8 +1,4 @@
 /* snow animation */
-.column-screen {
-  overflow-x: hidden!important;
-  overflow-y: hidden!important;
-}
 .snow {
   z-index: 0;
   position: absolute;
