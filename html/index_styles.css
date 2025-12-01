@@ -28,8 +28,8 @@ body {
 */
 
 .gradient_bg {
-  overflow: visible;
   width: 100%;
+  padding-left: calc(100vw - 100%);
   margin-top: 0;
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #205493 100%); /* if using bottom-img, comment this */
   /* background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%); */
