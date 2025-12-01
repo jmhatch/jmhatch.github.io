@@ -19,7 +19,6 @@
 
 body {
   overscroll-behavior: none;
-  overflow-x: hidden !important; /* added for leaf animation */
 }
 
 /* if using bottom-img, uncomment this 
@@ -29,6 +28,7 @@ body {
 */
 
 .gradient_bg {
+  overflow: visible;
   width: 100%;
   margin-top: 0;
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #205493 100%); /* if using bottom-img, comment this */
