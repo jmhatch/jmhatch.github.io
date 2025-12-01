@@ -21,6 +21,7 @@ html, body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
+  overscroll-behavior: none;
 }
 
 /* if using bottom-img, uncomment this 
