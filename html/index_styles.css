@@ -28,7 +28,8 @@ body {
 */
 
 .column_screen {
-  overflow: hidden!important;
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
 }
 
 .gradient_bg {
