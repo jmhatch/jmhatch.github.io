@@ -17,8 +17,9 @@
   scroll-behavior: smooth;
 }
 
-body {
-  overscroll-behavior: none;
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* if using bottom-img, uncomment this 
@@ -26,11 +27,6 @@ body {
   background: linear-gradient(-180deg, #000000 0%, #021d44 50%, #205493 100%);
 }  
 */
-
-.column_screen {
-  overflow-x: hidden!important;
-  overflow-y: hidden!important;
-}
 
 .gradient_bg {
   width: 100%;
