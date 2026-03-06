@@ -18,10 +18,22 @@
 }
 
 html, body {
-  overflow-x: hidden;
+  overflow-x: clip;
   width: 100%;
   position: relative;
   overscroll-behavior: none;
+}
+
+/* container for cherry blossom petals */
+#leaf-garden {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Lets you click through to the page */
+  z-index: 9998; /* Keeps it on top, but behind your sprouting daffodils (9999) */
+  overflow: hidden; 
 }
 
 /* if using bottom-img, uncomment this 
