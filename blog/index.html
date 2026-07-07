@@ -71,6 +71,34 @@ ul.task-list li input[type="checkbox"] {
 }</script><script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2026 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-website','listing-project','listing-preview','listing-execute','listing-format','listing-engines','listing-language','listing-title-block-banner','listing-title','listing-date','listing-description','listing-image','listing-categories','listing-resources','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-website","listing-project","listing-preview","listing-execute","listing-format","listing-engines","listing-language","listing-title-block-banner","listing-title","listing-date","listing-description","listing-image","listing-categories","listing-resources","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2026'] = new List('listing-posts_2026', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-posts_2025 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -235,13 +263,55 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QXJjR0lTJTIwT25saW5l">ArcGIS Online <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXVkaW9tb3Ro">audiomoth <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YmlyZGluZw==">birding <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sb3JhZG8=">Colorado <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHBvcnRhbA==">data portal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VvcmdpYQ==">Georgia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2lz">gis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzc2FjaHVzZXR0cw==">Massachusetts <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmF0aW9uYWwlMjBXaWxkbGlmZSUyMFJlZnVnZQ==">National Wildlife Refuge <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV3JTIwWW9yaw==">New York <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvdGVjdGVkJTIwbGFuZA==">protected land <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c291bmRzY2FwZQ==">soundscape <span class="quarto-category-count">(3)</span></div><div class="category" data-category="d2lsZGxpZmUlMjBkcml2ZQ==">wildlife drive <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d2lsZGxpZmUlMjB2aWV3aW5n">wildlife viewing <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QXJjR0lTJTIwT25saW5l">ArcGIS Online <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXVkaW9tb3Ro">audiomoth <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YmlyZGluZw==">birding <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sb3JhZG8=">Colorado <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHBvcnRhbA==">data portal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VvcmdpYQ==">Georgia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2lz">gis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzc2FjaHVzZXR0cw==">Massachusetts <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmF0aW9uYWwlMjBXaWxkbGlmZSUyMFJlZnVnZQ==">National Wildlife Refuge <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV3JTIwWW9yaw==">New York <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvdGVjdGVkJTIwbGFuZA==">protected land <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c291bmRzY2FwZQ==">soundscape <span class="quarto-category-count">(4)</span></div><div class="category" data-category="d2lsZGxpZmUlMjBkcml2ZQ==">wildlife drive <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d2lsZGxpZmUlMjB2aWV3aW5n">wildlife viewing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content"><section id="section" class="level2"><h2 class="anchored" data-anchor-id="section">2025</h2>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content"><section id="section" class="level2"><h2 class="anchored" data-anchor-id="section">2026</h2>
+<div id="listing-posts_2026" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+    
+    <div class="blog-entry" data-index="0" data-categories="YXVkaW9tb3RoJTJDTWFzc2FjaHVzZXR0cyUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1782086400000" data-listing-file-modified-sort="1783439940309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
+        <div class="metadata">          
+            <p class="date listing-date">Jun 22</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2026/06/22/audiomoth/index.html">Audio Birding</a></p>
+
+            
+            <div class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('audiomoth'); return false;">
+                    audiomoth
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('Massachusetts'); return false;">
+                    Massachusetts
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('soundscape'); return false;">
+                    soundscape
+                </div>
+                
+            </div>
+            
+
+            <p class="description listing-description">Using an audiomoth to remotely record the morning chorus</p>
+
+        </div>
+        
+        <div class="thumbnail">
+            <img src="../blog/2026/06/22/audiomoth/img/btnw_singing.png" alt="Audio Birding" title="Audio Birding">
+</div>
+        
+    </div>
+    
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section><section id="section-1" class="level2"><h2 class="anchored" data-anchor-id="section-1">2025</h2>
 <div id="listing-posts_2025" class="quarto-listing quarto-listing-container-custom">
 <div class="list blog">
     
-    <div class="blog-entry" data-index="0" data-categories="d2lsZGxpZmUlMjBkcml2ZSUyQ2JpcmRpbmclMkNOYXRpb25hbCUyMFdpbGRsaWZlJTIwUmVmdWdlJTJDcHJvdGVjdGVkJTIwbGFuZCUyQ05ldyUyMFlvcms=" data-listing-date-sort="1753488000000" data-listing-file-modified-sort="1782940255045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
+    <div class="blog-entry" data-index="0" data-categories="d2lsZGxpZmUlMjBkcml2ZSUyQ2JpcmRpbmclMkNOYXRpb25hbCUyMFdpbGRsaWZlJTIwUmVmdWdlJTJDcHJvdGVjdGVkJTIwbGFuZCUyQ05ldyUyMFlvcms=" data-listing-date-sort="1753488000000" data-listing-file-modified-sort="1783439940283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
         <div class="metadata">          
             <p class="date listing-date">Jul 26</p>
         </div>
@@ -284,7 +354,7 @@ window.Quarto = {
         
     </div>
     
-    <div class="blog-entry" data-index="1" data-categories="YXVkaW9tb3RoJTJDTWFzc2FjaHVzZXR0cyUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1750550400000" data-listing-file-modified-sort="1782940255042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="877">
+    <div class="blog-entry" data-index="1" data-categories="YXVkaW9tb3RoJTJDTWFzc2FjaHVzZXR0cyUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1750550400000" data-listing-file-modified-sort="1783439940280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="966">
         <div class="metadata">          
             <p class="date listing-date">Jun 22</p>
         </div>
@@ -319,7 +389,7 @@ window.Quarto = {
         
     </div>
     
-    <div class="blog-entry" data-index="2" data-categories="d2lsZGxpZmUlMjBkcml2ZSUyQ3dpbGRsaWZlJTIwdmlld2luZyUyQ05hdGlvbmFsJTIwV2lsZGxpZmUlMjBSZWZ1Z2UlMkNwcm90ZWN0ZWQlMjBsYW5kJTJDQ29sb3JhZG8=" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1782940255027" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+    <div class="blog-entry" data-index="2" data-categories="d2lsZGxpZmUlMjBkcml2ZSUyQ3dpbGRsaWZlJTIwdmlld2luZyUyQ05hdGlvbmFsJTIwV2lsZGxpZmUlMjBSZWZ1Z2UlMkNwcm90ZWN0ZWQlMjBsYW5kJTJDQ29sb3JhZG8=" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1783439940266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
         <div class="metadata">          
             <p class="date listing-date">Jun 2</p>
         </div>
@@ -362,7 +432,7 @@ window.Quarto = {
         
     </div>
     
-    <div class="blog-entry" data-index="3" data-categories="YmlyZGluZyUyQ05hdGlvbmFsJTIwV2lsZGxpZmUlMjBSZWZ1Z2UlMkNwcm90ZWN0ZWQlMjBsYW5kJTJDR2VvcmdpYSUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1747526400000" data-listing-file-modified-sort="1782940254997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+    <div class="blog-entry" data-index="3" data-categories="YmlyZGluZyUyQ05hdGlvbmFsJTIwV2lsZGxpZmUlMjBSZWZ1Z2UlMkNwcm90ZWN0ZWQlMjBsYW5kJTJDR2VvcmdpYSUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1747526400000" data-listing-file-modified-sort="1783439940236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
         <div class="metadata">          
             <p class="date listing-date">May 18</p>
         </div>
@@ -405,7 +475,7 @@ window.Quarto = {
         
     </div>
     
-    <div class="blog-entry" data-index="4" data-categories="Z2lzJTJDZGF0YSUyMHBvcnRhbCUyQ0FyY0dJUyUyME9ubGluZQ==" data-listing-date-sort="1746403200000" data-listing-file-modified-sort="1782940254990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+    <div class="blog-entry" data-index="4" data-categories="Z2lzJTJDZGF0YSUyMHBvcnRhbCUyQ0FyY0dJUyUyME9ubGluZQ==" data-listing-date-sort="1746403200000" data-listing-file-modified-sort="1783439940229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
         <div class="metadata">          
             <p class="date listing-date">May 5</p>
         </div>
@@ -443,11 +513,11 @@ window.Quarto = {
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section><section id="section-1" class="level2"><h2 class="anchored" data-anchor-id="section-1">2024</h2>
+</section><section id="section-2" class="level2"><h2 class="anchored" data-anchor-id="section-2">2024</h2>
 <div id="listing-posts_2024" class="quarto-listing quarto-listing-container-custom">
 <div class="list blog">
     
-    <div class="blog-entry" data-index="0" data-categories="YXVkaW9tb3RoJTJDTWFzc2FjaHVzZXR0cyUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1719014400000" data-listing-file-modified-sort="1782940254988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
+    <div class="blog-entry" data-index="0" data-categories="YXVkaW9tb3RoJTJDTWFzc2FjaHVzZXR0cyUyQ3NvdW5kc2NhcGU=" data-listing-date-sort="1719014400000" data-listing-file-modified-sort="1783439940227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
         <div class="metadata">          
             <p class="date listing-date">Jun 22</p>
         </div>

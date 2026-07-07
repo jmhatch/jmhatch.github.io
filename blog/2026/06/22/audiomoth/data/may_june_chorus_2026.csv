@@ -1,0 +1,53 @@
+common_name,species_name,n,freq
+Carolina Wren,Thryothorus ludovicianus,1269,0.2638802245789145
+American Robin,Turdus migratorius,813,0.16905801621958827
+Northern Cardinal,Cardinalis cardinalis,368,0.07652318569349137
+Fish Crow,Corvus ossifragus,306,0.06363069245165315
+American Crow,Corvus brachyrhynchos,297,0.061759201497192766
+Gray Catbird,Dumetella carolinensis,272,0.05656061551258058
+Great Crested Flycatcher,Myiarchus crinitus,240,0.049906425452276984
+Red-eyed Vireo,Vireo olivaceus,185,0.038469536286130174
+Mourning Dove,Zenaida macroura,172,0.035766271574131835
+Blackpoll Warbler,Setophaga striata,119,0.024745269286754003
+Black-capped Chickadee,Poecile atricapillus,91,0.018922852983988356
+Chipping Sparrow,Spizella passerina,91,0.018922852983988356
+Blue Jay,Cyanocitta cristata,90,0.018714909544603867
+Chimney Swift,Chaetura pelagica,54,0.011228945726762321
+American Goldfinch,Spinus tristis,53,0.011021002287377834
+Cedar Waxwing,Bombycilla cedrorum,51,0.010605115408608859
+Black-throated Green Warbler,Setophaga virens,36,0.007485963817841547
+Common Grackle,Quiscalus quiscula,35,0.00727802037845706
+Baltimore Oriole,Icterus galbula,24,0.004990642545227698
+Tufted Titmouse,Baeolophus bicolor,23,0.0047826991058432106
+Brown-headed Cowbird,Molothrus ater,22,0.004574755666458723
+Scarlet Tanager,Piranga olivacea,20,0.004158868787689748
+Downy Woodpecker,Dryobates pubescens,19,0.003950925348305261
+Red-bellied Woodpecker,Melanerpes carolinus,19,0.003950925348305261
+Northern Flicker,Colaptes auratus,18,0.0037429819089207735
+Red-breasted Nuthatch,Sitta canadensis,14,0.002911208151382824
+White-breasted Nuthatch,Sitta carolinensis,13,0.0027032647119983365
+Eastern Phoebe,Sayornis phoebe,11,0.0022873778332293615
+Herring Gull,Larus argentatus,9,0.0018714909544603868
+House Sparrow,Passer domesticus,9,0.0018714909544603868
+Yellow-throated Vireo,Vireo flavifrons,9,0.0018714909544603868
+Rose-breasted Grosbeak,Pheucticus ludovicianus,8,0.0016635475150758993
+Eastern Wood-Pewee,Contopus virens,7,0.001455604075691412
+European Starling,Sturnus vulgaris,7,0.001455604075691412
+House Finch,Haemorhous mexicanus,7,0.001455604075691412
+Canada Goose,Branta canadensis,5,0.001039717196922437
+Pine Warbler,Setophaga pinus,4,8.317737575379496e-4
+Song Sparrow,Melospiza melodia,3,6.238303181534623e-4
+Eastern Bluebird,Sialia sialis,2,4.158868787689748e-4
+Yellow Warbler,Setophaga petechia,2,4.158868787689748e-4
+Barn Swallow,Hirundo rustica,1,2.079434393844874e-4
+Belted Kingfisher,Megaceryle alcyon,1,2.079434393844874e-4
+Blue-gray Gnatcatcher,Polioptila caerulea,1,2.079434393844874e-4
+Blue-headed Vireo,Vireo solitarius,1,2.079434393844874e-4
+Broad-winged Hawk,Buteo platypterus,1,2.079434393844874e-4
+Eastern Kingbird,Tyrannus tyrannus,1,2.079434393844874e-4
+Greater Yellowlegs,Tringa melanoleuca,1,2.079434393844874e-4
+House Wren,Troglodytes aedon,1,2.079434393844874e-4
+Magnolia Warbler,Setophaga magnolia,1,2.079434393844874e-4
+Osprey,Pandion haliaetus,1,2.079434393844874e-4
+Ovenbird,Seiurus aurocapilla,1,2.079434393844874e-4
+Purple Martin,Progne subis,1,2.079434393844874e-4
